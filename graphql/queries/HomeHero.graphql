@@ -1,0 +1,17 @@
+query HomeHero($slug: ID = "home") {
+  page(id: $slug, idType: URI) {
+    id
+    title
+    hero: acfHero {
+      headline
+      subheadline
+      primaryCtaText
+      secondaryCtaText
+      heroImage {
+        sourceUrl
+        altText
+      }
+    }
+  }
+}
+

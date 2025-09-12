@@ -1,0 +1,9 @@
+# import ListingCard from "../fragments/listingCard.graphql"
+
+query ListingBySlug($slug: ID!) {
+  listing(id: $slug, idType: SLUG) {
+    ...ListingCard
+    content
+  }
+}
+

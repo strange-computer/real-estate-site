@@ -1,0 +1,9 @@
+query ListingSlugs($first: Int = 100) {
+  listings(first: $first) {
+    nodes {
+      id
+      slug
+    }
+  }
+}
+

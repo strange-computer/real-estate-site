@@ -1,0 +1,10 @@
+# import ListingCard from "../fragments/listingCard.graphql"
+
+query Listings($first: Int = 8) {
+  listings(first: $first) {
+    nodes {
+      ...ListingCard
+    }
+  }
+}
+

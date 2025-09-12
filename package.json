@@ -6,20 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate": "faust generatePossibleTypes"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.1"
+    "@apollo/client": "^3.9.9",
+    "@faustwp/cli": "^3.2.5",
+    "@faustwp/core": "^3.2.4",
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "graphql": "^16.11.0",
+    "lucide-react": "^0.487.0",
+    "motion": "^12.23.12",
+    "next": "15.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.5.1",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5"
   }
 }

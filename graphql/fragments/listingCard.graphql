@@ -1,0 +1,28 @@
+fragment ListingCard on Listing {
+  id
+  databaseId
+  slug
+  title
+  listingFields: acfListingFields {
+    price
+    address
+    beds
+    baths
+    sqft
+    status
+  }
+  featuredImage {
+    node {
+      sourceUrl
+      altText
+    }
+  }
+  neighborhoods: terms(where: { taxonomies: [NEIGHBORHOOD] }) {
+    nodes {
+      id
+      name
+      slug
+    }
+  }
+}
+

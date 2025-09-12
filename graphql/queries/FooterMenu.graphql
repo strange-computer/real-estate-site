@@ -1,0 +1,15 @@
+query FooterMenu($slug: ID = "footer") {
+  menu(id: $slug, idType: SLUG) {
+    id
+    name
+    menuItems(first: 100) {
+      nodes {
+        id
+        label
+        url
+        path
+      }
+    }
+  }
+}
+
