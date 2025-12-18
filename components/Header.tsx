@@ -11,7 +11,7 @@ export function Header({
     { id: "listings", label: "Listings", href: "#listings" },
     { id: "contact", label: "Contact", href: "#contact" },
   ],
-  phone = "(210) 555-0123",
+  phone = "(949) 365-6756",
   email = "cameron@cameronhinkelrealtor.com",
 }: {
   menuItems?: HeaderMenuItem[];

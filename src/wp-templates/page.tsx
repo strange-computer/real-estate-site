@@ -30,3 +30,7 @@ PageTemplate.variables = (seedNode) => ({
 export default PageTemplate;
 
 
+
+
+
+

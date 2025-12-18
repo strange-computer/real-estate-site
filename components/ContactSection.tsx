@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from ".
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export function ContactSection({
-  phone = "(210) 555-0123",
+  phone = "(949) 365-6756",
   email = "cameron@cameronhinkelrealtor.com",
   serviceAreaText = "San Antonio & Surrounding Areas",
   serviceAreaNote = "Stone Oak, Alamo Heights, King William, and more",

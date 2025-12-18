@@ -41,3 +41,7 @@ Singular.variables = (seedNode) => ({ uri: seedNode?.uri });
 export default Singular;
 
 
+
+
+
+
