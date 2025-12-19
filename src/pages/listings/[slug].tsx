@@ -9,6 +9,8 @@ import { Badge } from "../../../components/ui/badge";
 import { Button } from "../../../components/ui/button";
 import { MapPin } from "lucide-react";
 
+export const config = { runtime: "experimental-edge" };
+
 const LISTING_BY_SLUG = gql`
   query ListingBySlug($slug: ID!) {
     listing(id: $slug, idType: SLUG) {
